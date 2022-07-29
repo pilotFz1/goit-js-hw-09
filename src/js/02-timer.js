@@ -1,6 +1,6 @@
 import flatpickr from 'flatpickr';
 import Notiflix from 'notiflix';
-/* import 'flatpickr/dist/flatpickr.min.css'; */
+import 'flatpickr/dist/flatpickr.min.css';
 
 /* const flatpickr = require('flatpickr'); */
 const currentTime = new Date();
