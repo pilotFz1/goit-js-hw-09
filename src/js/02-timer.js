@@ -66,10 +66,6 @@ function onClickBtn() {
       minutesElement.textContent = '00';
       secondsElement.textContent = '00';
     }
-    /* console.log(second);
-    console.log(minute);
-    console.log(hour);
-    console.log(day); */
   }
   setInterval(timer, 1000);
 }
