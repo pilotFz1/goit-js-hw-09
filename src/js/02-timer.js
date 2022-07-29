@@ -50,7 +50,7 @@ function onClickBtn() {
 
   function timer() {
     let today = new Date();
-    delta = deadLine - today - 1;
+    delta = deadLine - today;
     const second = pad(Math.floor(delta / 1000) % 60);
     const minute = pad(Math.floor(delta / 1000 / 60) % 60);
     const hour = pad(Math.floor(delta / 1000 / 60 / 60) % 24);
@@ -69,5 +69,3 @@ function onClickBtn() {
   }
   setInterval(timer, 1000);
 }
-
-console.log('hello word');
