@@ -24,7 +24,6 @@ function onClose(selectedDates) {
     Notiflix.Notify.failure('Please choose a date in the future');
   }
   if (currentTime < selectedDates[0]) {
-    /* console.log(selectedDates[0]); */
     deadLine = selectedDates[0];
 
     removeDisable();
@@ -33,11 +32,9 @@ function onClose(selectedDates) {
 
 function removeDisable() {
   btnStart.removeAttribute('disabled');
-  /* console.log('remove DISABLE'); */
 }
 
 btnStart.addEventListener('click', () => {
-  /* console.log('нажимаю кнопку'); */
   onClickBtn();
 });
 
