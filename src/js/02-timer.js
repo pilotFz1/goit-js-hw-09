@@ -1,8 +1,8 @@
 import flatpickr from 'flatpickr';
 import Notiflix from 'notiflix';
-import 'flatpickr/dist/flatpickr.min.css';
+/* import 'flatpickr/dist/flatpickr.min.css'; */
 
-const flatpickr = require('flatpickr');
+/* const flatpickr = require('flatpickr'); */
 const currentTime = new Date();
 const btnStart = document.querySelector('button');
 const selector = document.querySelector('input#datetime-picker');
@@ -69,3 +69,5 @@ function onClickBtn() {
   }
   setInterval(timer, 1000);
 }
+
+console.log('hello word');
